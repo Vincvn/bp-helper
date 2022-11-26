@@ -1,6 +1,6 @@
 {
   "name": "@vincvn/bp-helper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NOTHING TO SAY",
   "main": "src/index.js",
   "type": "module",

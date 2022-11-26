@@ -41,6 +41,11 @@ Array.prototype.last = function($d= null){
 Array.prototype.clone = function($d = null){
     return this.empty() ? $d:JSON.parse(JSON.stringify(this))
 }
-/*Array.prototype.toJSON = function(){
-    return JSON.stringify(this)
-}*/
+Array.prototype.getJSON = function(){
+    try{
+        const json_string = JSON.stringify(this)
+        return json_string
+    }catch (e) {
+        return false
+    }
+}
