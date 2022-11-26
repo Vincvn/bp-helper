@@ -1,16 +1,13 @@
 {
   "name": "@vincvn/bp-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NOTHING TO SAY",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "test": "jest --detectOpenHandles --forceExit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vincvn/bp-helper.git"
-  },
+  "repository": "git+https://github.com/Vincvn/bp-helper.git",
   "keywords": [
     "prototype"
   ],
