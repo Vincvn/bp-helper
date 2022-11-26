@@ -31,7 +31,7 @@ String.prototype.maskChars = function (chars, length){
     if(length <= this.length) return chars.toString().repeat(this.length)
     return (this + chars.toString().repeat(length-this.length))
 }
-String.prototype.toJSON = function(){
+String.prototype.getJSON = function(){
     return JSON.parse(this)
 }
 String.prototype.getChar = function(index){
