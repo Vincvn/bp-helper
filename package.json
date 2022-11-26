@@ -1,0 +1,42 @@
+{
+  "name": "@vincvn/bp-helper",
+  "version": "0.0.1",
+  "description": "NOTHING TO SAY",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincvn/bp-helper.git"
+  },
+  "keywords": [
+    "prototype"
+  ],
+  "author": "Vincent Hoang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vincvn/bp-helper/issues"
+  },
+  "homepage": "https://github.com/Vincvn/bp-helper#readme",
+  "dependencies": {
+    "decimal.js": "^10.4.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "transform": {},
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "src"
+    ],
+    "globals": {}
+  }
+}
